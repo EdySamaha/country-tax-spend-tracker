@@ -1,0 +1,66 @@
+{
+  "code": "ca",
+  "name": "Government of Canada (federal)",
+  "kind": "federal",
+  "fiscalYear": "2024",
+  "component": "Federal government",
+  "totalExpenditure": 519736000000,
+  "functions": [
+    {
+      "name": "Social protection",
+      "amount": 187096000000,
+      "share": 0.35998
+    },
+    {
+      "name": "General public services",
+      "amount": 138596000000,
+      "share": 0.26667
+    },
+    {
+      "name": "Health",
+      "amount": 65219000000,
+      "share": 0.12548
+    },
+    {
+      "name": "Economic affairs",
+      "amount": 33743000000,
+      "share": 0.06492
+    },
+    {
+      "name": "Defence",
+      "amount": 28106000000,
+      "share": 0.05408
+    },
+    {
+      "name": "Environmental protection",
+      "amount": 23957000000,
+      "share": 0.04609
+    },
+    {
+      "name": "Public order and safety",
+      "amount": 19569000000,
+      "share": 0.03765
+    },
+    {
+      "name": "Education",
+      "amount": 10635000000,
+      "share": 0.02046
+    },
+    {
+      "name": "Recreation, culture and religion",
+      "amount": 6657000000,
+      "share": 0.01281
+    },
+    {
+      "name": "Housing and community amenities",
+      "amount": 6158000000,
+      "share": 0.01185
+    }
+  ],
+  "source": {
+    "table": "10-10-0024-01",
+    "productId": "10100024",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
+    "retrievedAt": "2026-09-29"
+  }
+}

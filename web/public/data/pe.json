@@ -1,0 +1,66 @@
+{
+  "code": "pe",
+  "name": "Prince Edward Island",
+  "kind": "province",
+  "fiscalYear": "2024",
+  "component": "Provincial and territorial governments",
+  "totalExpenditure": 3195000000,
+  "functions": [
+    {
+      "name": "Health",
+      "amount": 1134000000,
+      "share": 0.35493
+    },
+    {
+      "name": "Education",
+      "amount": 555000000,
+      "share": 0.17371
+    },
+    {
+      "name": "Economic affairs",
+      "amount": 494000000,
+      "share": 0.15462
+    },
+    {
+      "name": "General public services",
+      "amount": 387000000,
+      "share": 0.12113
+    },
+    {
+      "name": "Social protection",
+      "amount": 331000000,
+      "share": 0.1036
+    },
+    {
+      "name": "Environmental protection",
+      "amount": 118000000,
+      "share": 0.03693
+    },
+    {
+      "name": "Public order and safety",
+      "amount": 80000000,
+      "share": 0.02504
+    },
+    {
+      "name": "Housing and community amenities",
+      "amount": 80000000,
+      "share": 0.02504
+    },
+    {
+      "name": "Recreation, culture and religion",
+      "amount": 16000000,
+      "share": 0.00501
+    },
+    {
+      "name": "Defence",
+      "amount": 0,
+      "share": 0.0
+    }
+  ],
+  "source": {
+    "table": "10-10-0024-01",
+    "productId": "10100024",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
+    "retrievedAt": "2026-09-29"
+  }
+}

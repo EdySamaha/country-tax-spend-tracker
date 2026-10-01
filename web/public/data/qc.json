@@ -1,0 +1,66 @@
+{
+  "code": "qc",
+  "name": "Quebec",
+  "kind": "province",
+  "fiscalYear": "2024",
+  "component": "Provincial and territorial governments",
+  "totalExpenditure": 182808000000,
+  "functions": [
+    {
+      "name": "Health",
+      "amount": 60729000000,
+      "share": 0.3322
+    },
+    {
+      "name": "Social protection",
+      "amount": 32026000000,
+      "share": 0.17519
+    },
+    {
+      "name": "Education",
+      "amount": 31485000000,
+      "share": 0.17223
+    },
+    {
+      "name": "General public services",
+      "amount": 30283000000,
+      "share": 0.16565
+    },
+    {
+      "name": "Economic affairs",
+      "amount": 15636000000,
+      "share": 0.08553
+    },
+    {
+      "name": "Public order and safety",
+      "amount": 4786000000,
+      "share": 0.02618
+    },
+    {
+      "name": "Housing and community amenities",
+      "amount": 2825000000,
+      "share": 0.01545
+    },
+    {
+      "name": "Recreation, culture and religion",
+      "amount": 2735000000,
+      "share": 0.01496
+    },
+    {
+      "name": "Environmental protection",
+      "amount": 2303000000,
+      "share": 0.0126
+    },
+    {
+      "name": "Defence",
+      "amount": 0,
+      "share": 0.0
+    }
+  ],
+  "source": {
+    "table": "10-10-0024-01",
+    "productId": "10100024",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
+    "retrievedAt": "2026-09-29"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "code": "nb",
+  "name": "New Brunswick",
+  "kind": "province",
+  "fiscalYear": "2024",
+  "component": "Provincial and territorial governments",
+  "totalExpenditure": 12258000000,
+  "functions": [
+    {
+      "name": "Health",
+      "amount": 4338000000,
+      "share": 0.35389
+    },
+    {
+      "name": "Education",
+      "amount": 2435000000,
+      "share": 0.19865
+    },
+    {
+      "name": "General public services",
+      "amount": 1795000000,
+      "share": 0.14643
+    },
+    {
+      "name": "Economic affairs",
+      "amount": 1516000000,
+      "share": 0.12367
+    },
+    {
+      "name": "Social protection",
+      "amount": 1479000000,
+      "share": 0.12066
+    },
+    {
+      "name": "Public order and safety",
+      "amount": 399000000,
+      "share": 0.03255
+    },
+    {
+      "name": "Housing and community amenities",
+      "amount": 159000000,
+      "share": 0.01297
+    },
+    {
+      "name": "Recreation, culture and religion",
+      "amount": 77000000,
+      "share": 0.00628
+    },
+    {
+      "name": "Environmental protection",
+      "amount": 60000000,
+      "share": 0.00489
+    },
+    {
+      "name": "Defence",
+      "amount": 0,
+      "share": 0.0
+    }
+  ],
+  "source": {
+    "table": "10-10-0024-01",
+    "productId": "10100024",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
+    "retrievedAt": "2026-09-29"
+  }
+}

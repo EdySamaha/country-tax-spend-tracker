@@ -1,0 +1,66 @@
+{
+  "code": "bc",
+  "name": "British Columbia",
+  "kind": "province",
+  "fiscalYear": "2024",
+  "component": "Provincial and territorial governments",
+  "totalExpenditure": 90473000000,
+  "functions": [
+    {
+      "name": "Health",
+      "amount": 38000000000,
+      "share": 0.42001
+    },
+    {
+      "name": "Social protection",
+      "amount": 17956000000,
+      "share": 0.19847
+    },
+    {
+      "name": "Education",
+      "amount": 14059000000,
+      "share": 0.15539
+    },
+    {
+      "name": "General public services",
+      "amount": 7608000000,
+      "share": 0.08409
+    },
+    {
+      "name": "Economic affairs",
+      "amount": 7555000000,
+      "share": 0.08351
+    },
+    {
+      "name": "Public order and safety",
+      "amount": 2667000000,
+      "share": 0.02948
+    },
+    {
+      "name": "Recreation, culture and religion",
+      "amount": 1280000000,
+      "share": 0.01415
+    },
+    {
+      "name": "Environmental protection",
+      "amount": 1076000000,
+      "share": 0.01189
+    },
+    {
+      "name": "Housing and community amenities",
+      "amount": 272000000,
+      "share": 0.00301
+    },
+    {
+      "name": "Defence",
+      "amount": 0,
+      "share": 0.0
+    }
+  ],
+  "source": {
+    "table": "10-10-0024-01",
+    "productId": "10100024",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
+    "retrievedAt": "2026-09-29"
+  }
+}

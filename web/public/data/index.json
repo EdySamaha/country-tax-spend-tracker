@@ -1,0 +1,95 @@
+{
+  "fiscalYear": "2024",
+  "source": {
+    "table": "10-10-0024-01",
+    "productId": "10100024",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
+    "retrievedAt": "2026-09-29"
+  },
+  "jurisdictions": [
+    {
+      "code": "ca",
+      "name": "Government of Canada (federal)",
+      "kind": "federal",
+      "totalExpenditure": 519736000000
+    },
+    {
+      "code": "on",
+      "name": "Ontario",
+      "kind": "province",
+      "totalExpenditure": 217667000000
+    },
+    {
+      "code": "qc",
+      "name": "Quebec",
+      "kind": "province",
+      "totalExpenditure": 182808000000
+    },
+    {
+      "code": "bc",
+      "name": "British Columbia",
+      "kind": "province",
+      "totalExpenditure": 90473000000
+    },
+    {
+      "code": "ab",
+      "name": "Alberta",
+      "kind": "province",
+      "totalExpenditure": 72098000000
+    },
+    {
+      "code": "mb",
+      "name": "Manitoba",
+      "kind": "province",
+      "totalExpenditure": 22833000000
+    },
+    {
+      "code": "sk",
+      "name": "Saskatchewan",
+      "kind": "province",
+      "totalExpenditure": 23303000000
+    },
+    {
+      "code": "ns",
+      "name": "Nova Scotia",
+      "kind": "province",
+      "totalExpenditure": 16454000000
+    },
+    {
+      "code": "nb",
+      "name": "New Brunswick",
+      "kind": "province",
+      "totalExpenditure": 12258000000
+    },
+    {
+      "code": "nl",
+      "name": "Newfoundland and Labrador",
+      "kind": "province",
+      "totalExpenditure": 9358000000
+    },
+    {
+      "code": "pe",
+      "name": "Prince Edward Island",
+      "kind": "province",
+      "totalExpenditure": 3195000000
+    },
+    {
+      "code": "yt",
+      "name": "Yukon",
+      "kind": "territory",
+      "totalExpenditure": 1890000000
+    },
+    {
+      "code": "nt",
+      "name": "Northwest Territories",
+      "kind": "territory",
+      "totalExpenditure": 2631000000
+    },
+    {
+      "code": "nu",
+      "name": "Nunavut",
+      "kind": "territory",
+      "totalExpenditure": 3067000000
+    }
+  ]
+}

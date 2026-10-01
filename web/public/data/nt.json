@@ -1,0 +1,66 @@
+{
+  "code": "nt",
+  "name": "Northwest Territories",
+  "kind": "territory",
+  "fiscalYear": "2024",
+  "component": "Provincial and territorial governments",
+  "totalExpenditure": 2631000000,
+  "functions": [
+    {
+      "name": "Health",
+      "amount": 614000000,
+      "share": 0.23337
+    },
+    {
+      "name": "Economic affairs",
+      "amount": 488000000,
+      "share": 0.18548
+    },
+    {
+      "name": "Social protection",
+      "amount": 437000000,
+      "share": 0.1661
+    },
+    {
+      "name": "General public services",
+      "amount": 377000000,
+      "share": 0.14329
+    },
+    {
+      "name": "Education",
+      "amount": 262000000,
+      "share": 0.09958
+    },
+    {
+      "name": "Public order and safety",
+      "amount": 155000000,
+      "share": 0.05891
+    },
+    {
+      "name": "Housing and community amenities",
+      "amount": 155000000,
+      "share": 0.05891
+    },
+    {
+      "name": "Environmental protection",
+      "amount": 116000000,
+      "share": 0.04409
+    },
+    {
+      "name": "Recreation, culture and religion",
+      "amount": 27000000,
+      "share": 0.01026
+    },
+    {
+      "name": "Defence",
+      "amount": 0,
+      "share": 0.0
+    }
+  ],
+  "source": {
+    "table": "10-10-0024-01",
+    "productId": "10100024",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
+    "retrievedAt": "2026-09-29"
+  }
+}

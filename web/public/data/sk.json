@@ -1,0 +1,66 @@
+{
+  "code": "sk",
+  "name": "Saskatchewan",
+  "kind": "province",
+  "fiscalYear": "2024",
+  "component": "Provincial and territorial governments",
+  "totalExpenditure": 23303000000,
+  "functions": [
+    {
+      "name": "Health",
+      "amount": 8469000000,
+      "share": 0.36343
+    },
+    {
+      "name": "Social protection",
+      "amount": 4287000000,
+      "share": 0.18397
+    },
+    {
+      "name": "Education",
+      "amount": 3882000000,
+      "share": 0.16659
+    },
+    {
+      "name": "Economic affairs",
+      "amount": 2595000000,
+      "share": 0.11136
+    },
+    {
+      "name": "General public services",
+      "amount": 2280000000,
+      "share": 0.09784
+    },
+    {
+      "name": "Public order and safety",
+      "amount": 1129000000,
+      "share": 0.04845
+    },
+    {
+      "name": "Environmental protection",
+      "amount": 267000000,
+      "share": 0.01146
+    },
+    {
+      "name": "Housing and community amenities",
+      "amount": 213000000,
+      "share": 0.00914
+    },
+    {
+      "name": "Recreation, culture and religion",
+      "amount": 181000000,
+      "share": 0.00777
+    },
+    {
+      "name": "Defence",
+      "amount": 0,
+      "share": 0.0
+    }
+  ],
+  "source": {
+    "table": "10-10-0024-01",
+    "productId": "10100024",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
+    "retrievedAt": "2026-09-29"
+  }
+}

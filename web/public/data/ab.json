@@ -1,0 +1,66 @@
+{
+  "code": "ab",
+  "name": "Alberta",
+  "kind": "province",
+  "fiscalYear": "2024",
+  "component": "Provincial and territorial governments",
+  "totalExpenditure": 72098000000,
+  "functions": [
+    {
+      "name": "Health",
+      "amount": 27906000000,
+      "share": 0.38706
+    },
+    {
+      "name": "Education",
+      "amount": 12545000000,
+      "share": 0.174
+    },
+    {
+      "name": "Social protection",
+      "amount": 11509000000,
+      "share": 0.15963
+    },
+    {
+      "name": "Economic affairs",
+      "amount": 9164000000,
+      "share": 0.1271
+    },
+    {
+      "name": "General public services",
+      "amount": 7872000000,
+      "share": 0.10918
+    },
+    {
+      "name": "Public order and safety",
+      "amount": 1849000000,
+      "share": 0.02565
+    },
+    {
+      "name": "Environmental protection",
+      "amount": 613000000,
+      "share": 0.0085
+    },
+    {
+      "name": "Recreation, culture and religion",
+      "amount": 420000000,
+      "share": 0.00583
+    },
+    {
+      "name": "Housing and community amenities",
+      "amount": 220000000,
+      "share": 0.00305
+    },
+    {
+      "name": "Defence",
+      "amount": 0,
+      "share": 0.0
+    }
+  ],
+  "source": {
+    "table": "10-10-0024-01",
+    "productId": "10100024",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
+    "retrievedAt": "2026-09-29"
+  }
+}

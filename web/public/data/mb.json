@@ -1,0 +1,66 @@
+{
+  "code": "mb",
+  "name": "Manitoba",
+  "kind": "province",
+  "fiscalYear": "2024",
+  "component": "Provincial and territorial governments",
+  "totalExpenditure": 22833000000,
+  "functions": [
+    {
+      "name": "Health",
+      "amount": 8882000000,
+      "share": 0.389
+    },
+    {
+      "name": "Social protection",
+      "amount": 4334000000,
+      "share": 0.18981
+    },
+    {
+      "name": "Education",
+      "amount": 3224000000,
+      "share": 0.1412
+    },
+    {
+      "name": "General public services",
+      "amount": 2868000000,
+      "share": 0.12561
+    },
+    {
+      "name": "Economic affairs",
+      "amount": 1500000000,
+      "share": 0.06569
+    },
+    {
+      "name": "Public order and safety",
+      "amount": 973000000,
+      "share": 0.04261
+    },
+    {
+      "name": "Housing and community amenities",
+      "amount": 645000000,
+      "share": 0.02825
+    },
+    {
+      "name": "Environmental protection",
+      "amount": 260000000,
+      "share": 0.01139
+    },
+    {
+      "name": "Recreation, culture and religion",
+      "amount": 147000000,
+      "share": 0.00644
+    },
+    {
+      "name": "Defence",
+      "amount": 0,
+      "share": 0.0
+    }
+  ],
+  "source": {
+    "table": "10-10-0024-01",
+    "productId": "10100024",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
+    "retrievedAt": "2026-09-29"
+  }
+}

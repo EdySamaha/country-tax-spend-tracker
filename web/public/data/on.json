@@ -1,0 +1,66 @@
+{
+  "code": "on",
+  "name": "Ontario",
+  "kind": "province",
+  "fiscalYear": "2024",
+  "component": "Provincial and territorial governments",
+  "totalExpenditure": 217667000000,
+  "functions": [
+    {
+      "name": "Health",
+      "amount": 85304000000,
+      "share": 0.3919
+    },
+    {
+      "name": "Social protection",
+      "amount": 36674000000,
+      "share": 0.16849
+    },
+    {
+      "name": "Education",
+      "amount": 36509000000,
+      "share": 0.16773
+    },
+    {
+      "name": "Economic affairs",
+      "amount": 26364000000,
+      "share": 0.12112
+    },
+    {
+      "name": "General public services",
+      "amount": 21861000000,
+      "share": 0.10043
+    },
+    {
+      "name": "Public order and safety",
+      "amount": 6719000000,
+      "share": 0.03087
+    },
+    {
+      "name": "Recreation, culture and religion",
+      "amount": 1725000000,
+      "share": 0.00792
+    },
+    {
+      "name": "Housing and community amenities",
+      "amount": 1362000000,
+      "share": 0.00626
+    },
+    {
+      "name": "Environmental protection",
+      "amount": 1149000000,
+      "share": 0.00528
+    },
+    {
+      "name": "Defence",
+      "amount": 0,
+      "share": 0.0
+    }
+  ],
+  "source": {
+    "table": "10-10-0024-01",
+    "productId": "10100024",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
+    "retrievedAt": "2026-09-29"
+  }
+}

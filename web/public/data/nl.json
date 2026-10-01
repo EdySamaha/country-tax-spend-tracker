@@ -1,0 +1,66 @@
+{
+  "code": "nl",
+  "name": "Newfoundland and Labrador",
+  "kind": "province",
+  "fiscalYear": "2024",
+  "component": "Provincial and territorial governments",
+  "totalExpenditure": 9358000000,
+  "functions": [
+    {
+      "name": "Health",
+      "amount": 3622000000,
+      "share": 0.38705
+    },
+    {
+      "name": "General public services",
+      "amount": 2008000000,
+      "share": 0.21458
+    },
+    {
+      "name": "Education",
+      "amount": 1629000000,
+      "share": 0.17408
+    },
+    {
+      "name": "Social protection",
+      "amount": 787000000,
+      "share": 0.0841
+    },
+    {
+      "name": "Economic affairs",
+      "amount": 755000000,
+      "share": 0.08068
+    },
+    {
+      "name": "Public order and safety",
+      "amount": 373000000,
+      "share": 0.03986
+    },
+    {
+      "name": "Environmental protection",
+      "amount": 86000000,
+      "share": 0.00919
+    },
+    {
+      "name": "Recreation, culture and religion",
+      "amount": 77000000,
+      "share": 0.00823
+    },
+    {
+      "name": "Housing and community amenities",
+      "amount": 21000000,
+      "share": 0.00224
+    },
+    {
+      "name": "Defence",
+      "amount": 0,
+      "share": 0.0
+    }
+  ],
+  "source": {
+    "table": "10-10-0024-01",
+    "productId": "10100024",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
+    "retrievedAt": "2026-09-29"
+  }
+}

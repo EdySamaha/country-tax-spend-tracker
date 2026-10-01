@@ -1,0 +1,66 @@
+{
+  "code": "yt",
+  "name": "Yukon",
+  "kind": "territory",
+  "fiscalYear": "2024",
+  "component": "Provincial and territorial governments",
+  "totalExpenditure": 1890000000,
+  "functions": [
+    {
+      "name": "Health",
+      "amount": 543000000,
+      "share": 0.2873
+    },
+    {
+      "name": "Economic affairs",
+      "amount": 321000000,
+      "share": 0.16984
+    },
+    {
+      "name": "Education",
+      "amount": 234000000,
+      "share": 0.12381
+    },
+    {
+      "name": "Social protection",
+      "amount": 204000000,
+      "share": 0.10794
+    },
+    {
+      "name": "General public services",
+      "amount": 174000000,
+      "share": 0.09206
+    },
+    {
+      "name": "Public order and safety",
+      "amount": 147000000,
+      "share": 0.07778
+    },
+    {
+      "name": "Housing and community amenities",
+      "amount": 124000000,
+      "share": 0.06561
+    },
+    {
+      "name": "Environmental protection",
+      "amount": 118000000,
+      "share": 0.06243
+    },
+    {
+      "name": "Recreation, culture and religion",
+      "amount": 25000000,
+      "share": 0.01323
+    },
+    {
+      "name": "Defence",
+      "amount": 0,
+      "share": 0.0
+    }
+  ],
+  "source": {
+    "table": "10-10-0024-01",
+    "productId": "10100024",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
+    "retrievedAt": "2026-09-29"
+  }
+}

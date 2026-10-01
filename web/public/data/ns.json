@@ -1,0 +1,66 @@
+{
+  "code": "ns",
+  "name": "Nova Scotia",
+  "kind": "province",
+  "fiscalYear": "2024",
+  "component": "Provincial and territorial governments",
+  "totalExpenditure": 16454000000,
+  "functions": [
+    {
+      "name": "Health",
+      "amount": 6640000000,
+      "share": 0.40355
+    },
+    {
+      "name": "General public services",
+      "amount": 2562000000,
+      "share": 0.15571
+    },
+    {
+      "name": "Education",
+      "amount": 2441000000,
+      "share": 0.14835
+    },
+    {
+      "name": "Social protection",
+      "amount": 1430000000,
+      "share": 0.08691
+    },
+    {
+      "name": "Economic affairs",
+      "amount": 1307000000,
+      "share": 0.07943
+    },
+    {
+      "name": "Housing and community amenities",
+      "amount": 1109000000,
+      "share": 0.0674
+    },
+    {
+      "name": "Public order and safety",
+      "amount": 518000000,
+      "share": 0.03148
+    },
+    {
+      "name": "Recreation, culture and religion",
+      "amount": 234000000,
+      "share": 0.01422
+    },
+    {
+      "name": "Environmental protection",
+      "amount": 213000000,
+      "share": 0.01295
+    },
+    {
+      "name": "Defence",
+      "amount": 0,
+      "share": 0.0
+    }
+  ],
+  "source": {
+    "table": "10-10-0024-01",
+    "productId": "10100024",
+    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
+    "retrievedAt": "2026-09-29"
+  }
+}
