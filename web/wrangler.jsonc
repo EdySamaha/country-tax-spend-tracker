@@ -1,0 +1,10 @@
+{
+  // Static-asset-only Worker: no server code, just upload the prebuilt Vite
+  // output in ./dist. This avoids Cloudflare's Vite plugin (which requires
+  // Vite 6+); we only need the files served, with _headers applied.
+  "name": "how-canada-spends",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}
