@@ -1,27 +1,29 @@
 import { useEffect, useMemo, useState } from "react";
 import CanadaMap from "./components/CanadaMap";
 import Breakdown from "./components/Breakdown";
+import SpendingDetail from "./components/SpendingDetail";
 import Compare from "./components/Compare";
 import Methodology from "./components/Methodology";
-import { loadIndex, loadJurisdiction } from "./lib";
-import type { IndexFile, Jurisdiction } from "./types";
+import { loadIndex, loadJurisdiction, sliceYear } from "./lib";
+import type { IndexFile, JurisdictionSeries } from "./types";
 
 type View = "home" | "methodology";
 
-function parseHash(): { view: View; selected: string[] } {
+function parseHash(): { view: View; selected: string[]; year: string } {
   const h = new URLSearchParams(window.location.hash.replace(/^#/, ""));
-  if (h.get("view") === "methodology") return { view: "methodology", selected: [] };
+  if (h.get("view") === "methodology") return { view: "methodology", selected: [], year: "" };
   const sel = (h.get("sel") ?? "").split(",").filter(Boolean).slice(0, 2);
-  return { view: "home", selected: sel };
+  return { view: "home", selected: sel, year: h.get("yr") ?? "" };
 }
 
 export default function App() {
   const initial = parseHash();
   const [view, setView] = useState<View>(initial.view);
   const [selected, setSelected] = useState<string[]>(initial.selected);
+  const [year, setYear] = useState<string>(initial.year);
   const [index, setIndex] = useState<IndexFile | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [loaded, setLoaded] = useState<Record<string, Jurisdiction>>({});
+  const [loaded, setLoaded] = useState<Record<string, JurisdictionSeries>>({});
   const [theme, setTheme] = useState<string>(() => localStorage.getItem("theme") ?? "light");
 
   // Theme
@@ -30,9 +32,15 @@ export default function App() {
     localStorage.setItem("theme", theme);
   }, [theme]);
 
-  // Index
+  // Index — once loaded, default the year to the latest available (unless the
+  // URL already pinned a valid one).
   useEffect(() => {
-    loadIndex().then(setIndex).catch((e) => setError(String(e)));
+    loadIndex()
+      .then((idx) => {
+        setIndex(idx);
+        setYear((y) => (y && idx.availableYears.includes(y) ? y : idx.latestYear));
+      })
+      .catch((e) => setError(String(e)));
   }, []);
 
   // Load selected jurisdiction data
@@ -50,10 +58,13 @@ export default function App() {
   useEffect(() => {
     const params = new URLSearchParams();
     if (view === "methodology") params.set("view", "methodology");
-    else if (selected.length) params.set("sel", selected.join(","));
+    else if (selected.length) {
+      params.set("sel", selected.join(","));
+      if (year && index && year !== index.latestYear) params.set("yr", year);
+    }
     const hash = params.toString();
     window.history.replaceState(null, "", hash ? `#${hash}` : window.location.pathname);
-  }, [view, selected]);
+  }, [view, selected, year, index]);
 
   const names = useMemo(() => {
     const m: Record<string, string> = {};
@@ -72,8 +83,11 @@ export default function App() {
 
   const swatchClass = (code: string) => (selected[0] === code ? "a" : "b");
 
-  const a = selected[0] ? loaded[selected[0]] : undefined;
-  const b = selected[1] ? loaded[selected[1]] : undefined;
+  const seriesA = selected[0] ? loaded[selected[0]] : undefined;
+  const seriesB = selected[1] ? loaded[selected[1]] : undefined;
+  const a = seriesA && year ? sliceYear(seriesA, year) : undefined;
+  const b = seriesB && year ? sliceYear(seriesB, year) : undefined;
+  const detailJs = [a, b].filter((x): x is NonNullable<typeof x> => !!x);
 
   return (
     <>
@@ -113,6 +127,7 @@ export default function App() {
             </div>
 
             <div className="split">
+              <div className="left-col">
               <div className="card map-wrap">
                 <p className="map-help">
                   Click a province or territory to see how it spends. Pick <b>two</b> to compare them
@@ -133,6 +148,22 @@ export default function App() {
                       </option>
                     ))}
                   </select>
+                  {index && index.availableYears.length > 1 && (
+                    <label className="year-picker">
+                      <span>Fiscal year</span>
+                      <select
+                        value={year}
+                        onChange={(e) => setYear(e.target.value)}
+                        aria-label="Fiscal year"
+                      >
+                        {[...index.availableYears].reverse().map((y) => (
+                          <option key={y} value={y}>
+                            {y}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
+                  )}
                   {selected.map((code) => (
                     <span className="chip" key={code}>
                       <span className={`swatch ${swatchClass(code)}`} style={{ background: swatchClass(code) === "a" ? "var(--series-1)" : "var(--series-2)" }} />
@@ -146,6 +177,9 @@ export default function App() {
                 </div>
               </div>
 
+              {detailJs.length > 0 && <SpendingDetail js={detailJs} />}
+              </div>
+
               <div>
                 {selected.length === 0 && (
                   <div className="card">
@@ -157,15 +191,19 @@ export default function App() {
                     </p>
                     {index && (
                       <p className="muted" style={{ marginTop: 14 }}>
-                        Fiscal year {index.fiscalYear} · {index.jurisdictions.length} governments · Statistics
-                        Canada open data.
+                        {index.availableYears.length} fiscal years through {index.latestYear} ·{" "}
+                        {index.jurisdictions.length} governments · Statistics Canada open data.
                       </p>
                     )}
                   </div>
                 )}
 
                 {selected.length === 1 &&
-                  (a ? <Breakdown j={a} /> : <div className="loading card">Loading {names[selected[0]]}…</div>)}
+                  (a ? (
+                    <Breakdown j={a} />
+                  ) : (
+                    <div className="loading card">Loading {names[selected[0]]}…</div>
+                  ))}
 
                 {selected.length === 2 &&
                   (a && b ? <Compare a={a} b={b} /> : <div className="loading card">Loading comparison…</div>)}

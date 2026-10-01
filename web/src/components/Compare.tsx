@@ -69,6 +69,29 @@ export default function Compare({ a, b }: Props) {
         <span className="item"><span className="swatch b" />{b.name}</span>
       </div>
 
+      {a.revenue && b.revenue && (
+        <div className="revcompare">
+          <div className="revcompare-title">Where the money comes from</div>
+          {([
+            ["Taxes", a.revenue.taxes / a.revenue.total, b.revenue.taxes / b.revenue.total],
+            ["Grants (transfers received)", a.revenue.grants / a.revenue.total, b.revenue.grants / b.revenue.total],
+          ] as const).map(([label, sa, sb]) => (
+            <div className="gbar-row" key={label}>
+              <div className="gbar-head">
+                <span className="name">{label}</span>
+                <span className="vals">{formatPct(sa, 0)} · {formatPct(sb, 0)}</span>
+              </div>
+              <div className="gtrack"><div className="gbar a" style={{ width: `${sa * 100}%` }} /></div>
+              <div className="gtrack"><div className="gbar b" style={{ width: `${sb * 100}%` }} /></div>
+            </div>
+          ))}
+          <p className="muted" style={{ marginTop: 6 }}>
+            Share of each government&rsquo;s own revenue. Grants are transfers received from other
+            governments — large for provinces, near zero federally.
+          </p>
+        </div>
+      )}
+
       <ul className="insights">
         {insights.map((r) => {
           const aMore = r.shareA >= r.shareB;

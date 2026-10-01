@@ -14,6 +14,7 @@
   --series-1-soft: #cde2fb;
   --series-2: #eb6834; /* orange — jurisdiction B */
   --series-2-soft: #fbd9cc;
+  --grant: #9b9992; /* grey — grants / transfers received */
   --region-fill: #e6ecf2;
   --region-hover: #b7d3f6;
 }
@@ -33,6 +34,7 @@
     --series-1-soft: #184f95;
     --series-2: #d95926;
     --series-2-soft: #7a3116;
+    --grant: #6e6d67;
     --region-fill: #26292c;
     --region-hover: #1c5cab;
   }
@@ -51,6 +53,7 @@
   --series-1-soft: #184f95;
   --series-2: #d95926;
   --series-2-soft: #7a3116;
+  --grant: #6e6d67;
   --region-fill: #26292c;
   --region-hover: #1c5cab;
 }
@@ -137,6 +140,12 @@ svg.canada path:focus-visible { stroke: var(--text-primary); stroke-width: 2; }
   padding: 7px 10px; border-radius: 8px; border: 1px solid var(--border);
   background: var(--surface-1); color: var(--text-primary); font-size: 14px;
 }
+.year-picker { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; color: var(--text-secondary); }
+.year-picker select {
+  padding: 7px 10px; border-radius: 8px; border: 1px solid var(--border);
+  background: var(--surface-1); color: var(--text-primary); font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
 .chip {
   display: inline-flex; align-items: center; gap: 7px;
   padding: 5px 10px; border-radius: 999px; font-size: 13px;
@@ -164,6 +173,98 @@ svg.canada path:focus-visible { stroke: var(--text-primary); stroke-width: 2; }
   background: var(--series-1); min-width: 2px;
 }
 .bar.b { background: var(--series-2); }
+
+/* expandable category + sub-categories */
+.bar-label.expandable { cursor: pointer; }
+.bar-label.expandable:hover .name { color: var(--series-1); }
+.bar-label .name { display: inline-flex; align-items: center; gap: 6px; }
+.caret {
+  display: inline-block; font-size: 10px; color: var(--text-muted);
+  transition: transform 0.12s ease;
+}
+.caret.open { transform: rotate(90deg); }
+.subrows {
+  margin: 6px 0 2px 14px; padding-left: 12px;
+  border-left: 2px solid var(--grid);
+  display: grid; gap: 5px;
+}
+.subrow { display: grid; gap: 2px; }
+.sub-label { display: flex; justify-content: space-between; gap: 10px; font-size: 12.5px; }
+.sub-label .name { color: var(--text-secondary); }
+.sub-label .val { color: var(--text-muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.track.sub { height: 8px; }
+.bar.sub { height: 8px; background: var(--series-1-soft); }
+
+/* revenue (taxes vs grants) bar */
+.revbar-wrap {
+  border: 1px solid var(--border); border-radius: 10px;
+  padding: 11px 12px; margin: 2px 0 16px; background: var(--page);
+}
+.revbar-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 7px; }
+.revbar-title { font-size: 13px; font-weight: 600; }
+.revbar-figs { display: flex; gap: 12px; font-size: 12.5px; color: var(--text-secondary); }
+.revbar-figs span { display: inline-flex; align-items: center; gap: 5px; }
+.revkey { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+.revkey.taxes { background: var(--series-1); }
+.revkey.grants { background: var(--grant); }
+.revbar { display: flex; height: 14px; border-radius: 5px; overflow: hidden; background: var(--grid); }
+.revbar .seg { height: 100%; }
+.revbar .seg.taxes { background: var(--series-1); }
+.revbar .seg.grants { background: var(--grant); }
+.revbar .seg.other { background: var(--baseline); }
+
+/* revenue mini-compare */
+.revcompare {
+  border: 1px solid var(--border); border-radius: 10px;
+  padding: 11px 12px; margin: 2px 0 16px; background: var(--page);
+}
+.revcompare-title { font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+
+/* left column holds the map and, beneath it, the "what the money funds" card */
+.left-col { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+
+/* spending-detail (third card: what the money funds) — curated program list */
+.prog-group { margin: 14px 0 2px; }
+.prog-group-head {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+  font-size: 15px; font-weight: 600; padding-bottom: 6px;
+  border-bottom: 2px solid var(--grid);
+}
+.prog-group-head .share { font-size: 12.5px; font-weight: 500; color: var(--text-secondary); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.prog-row {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 16px;
+  padding: 9px 0;
+}
+.prog-row + .prog-row { border-top: 1px solid var(--grid); }
+.prog-main { min-width: 0; }
+.prog-name { display: block; font-size: 14px; }
+.prog-name a { color: var(--text-primary); text-decoration: none; }
+.prog-name a:hover { color: var(--series-1); text-decoration: underline; }
+.prog-reach { font-size: 12.5px; color: var(--text-muted); }
+.prog-fig { text-align: right; white-space: nowrap; }
+.prog-amt { font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.prog-pct { font-size: 12px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+
+/* federal projects panel */
+.projects .disclose {
+  display: flex; align-items: center; gap: 9px; width: 100%;
+  background: none; border: none; cursor: pointer; text-align: left;
+  color: var(--text-primary); font-size: 14.5px; padding: 2px 0;
+}
+.projects .disclose:hover { color: var(--series-1); }
+.projects-body { margin-top: 12px; }
+.proj-controls { display: flex; justify-content: space-between; gap: 10px; align-items: center; margin-bottom: 6px; flex-wrap: wrap; }
+.tabs { display: flex; gap: 4px; }
+.tabs button {
+  border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary);
+  padding: 5px 10px; border-radius: 7px; cursor: pointer; font-size: 13px;
+}
+.tabs button.active { color: var(--text-primary); border-color: var(--series-1); }
+.proj-search {
+  padding: 6px 10px; border-radius: 7px; border: 1px solid var(--border);
+  background: var(--surface-1); color: var(--text-primary); font-size: 13px; min-width: 120px;
+}
+.bar-label .dept { color: var(--text-muted); font-size: 12px; }
 
 /* grouped (compare) */
 .gbar-row { padding: 9px 0; }

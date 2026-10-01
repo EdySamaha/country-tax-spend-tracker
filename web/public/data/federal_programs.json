@@ -1,0 +1,86 @@
+{
+  "fiscalYear": "2023–24",
+  "basis": "Canada's largest federal programs by annual spending, each mapped to its best-fitting CCOFOG spending category. This is a curated selection of flagship programs — not an exhaustive list — with every figure sourced individually. Federal government only; provinces and territories publish no comparable uniform program feed.",
+  "programs": [
+    {
+      "name": "Old Age Security & Guaranteed Income Supplement",
+      "category": "Social protection",
+      "amount": 76036000000,
+      "reach": "Seniors aged 65+",
+      "source": {
+        "label": "Annual Financial Report of the Government of Canada 2023–24 (elderly benefits)",
+        "url": "https://www.canada.ca/en/department-finance/services/publications/annual-financial-report/2024.html"
+      }
+    },
+    {
+      "name": "Canada Child Benefit",
+      "category": "Social protection",
+      "amount": 26339000000,
+      "reach": "Families with children",
+      "source": {
+        "label": "Annual Financial Report of the Government of Canada 2023–24 (Canada Child Benefit)",
+        "url": "https://www.canada.ca/en/department-finance/services/publications/annual-financial-report/2024.html"
+      }
+    },
+    {
+      "name": "Employment Insurance benefits",
+      "category": "Social protection",
+      "amount": 23130000000,
+      "reach": "Insured workers",
+      "source": {
+        "label": "Annual Financial Report of the Government of Canada 2023–24 (EI benefits)",
+        "url": "https://www.canada.ca/en/department-finance/services/publications/annual-financial-report/2024.html"
+      }
+    },
+    {
+      "name": "Canada Social Transfer",
+      "category": "Social protection",
+      "amount": 16416000000,
+      "reach": "Provinces & territories (social services, post-secondary, children)",
+      "source": {
+        "label": "Finance Canada — Major federal transfers, 2023–24",
+        "url": "https://www.canada.ca/en/department-finance/programs/federal-transfers/major-federal-transfers.html"
+      }
+    },
+    {
+      "name": "Public debt charges",
+      "category": "General public services",
+      "amount": 47273000000,
+      "reach": "Interest paid to bondholders",
+      "source": {
+        "label": "Annual Financial Report of the Government of Canada 2023–24 (public debt charges)",
+        "url": "https://www.canada.ca/en/department-finance/services/publications/annual-financial-report/2024.html"
+      }
+    },
+    {
+      "name": "Equalization",
+      "category": "General public services",
+      "amount": 23963000000,
+      "reach": "Lower-revenue provinces",
+      "source": {
+        "label": "Finance Canada — Major federal transfers, 2023–24",
+        "url": "https://www.canada.ca/en/department-finance/programs/federal-transfers/major-federal-transfers.html"
+      }
+    },
+    {
+      "name": "Territorial Formula Financing",
+      "category": "General public services",
+      "amount": 4834000000,
+      "reach": "Yukon, NWT & Nunavut",
+      "source": {
+        "label": "Finance Canada — Major federal transfers, 2023–24",
+        "url": "https://www.canada.ca/en/department-finance/programs/federal-transfers/major-federal-transfers.html"
+      }
+    },
+    {
+      "name": "Canada Health Transfer",
+      "category": "Health",
+      "amount": 49421000000,
+      "reach": "All provinces & territories",
+      "source": {
+        "label": "Finance Canada — Major federal transfers, 2023–24",
+        "url": "https://www.canada.ca/en/department-finance/programs/federal-transfers/major-federal-transfers.html"
+      }
+    }
+  ]
+}

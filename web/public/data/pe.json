@@ -2,65 +2,1189 @@
   "code": "pe",
   "name": "Prince Edward Island",
   "kind": "province",
-  "fiscalYear": "2024",
   "component": "Provincial and territorial governments",
-  "totalExpenditure": 3195000000,
-  "functions": [
-    {
-      "name": "Health",
-      "amount": 1134000000,
-      "share": 0.35493
-    },
-    {
-      "name": "Education",
-      "amount": 555000000,
-      "share": 0.17371
-    },
-    {
-      "name": "Economic affairs",
-      "amount": 494000000,
-      "share": 0.15462
-    },
-    {
-      "name": "General public services",
-      "amount": 387000000,
-      "share": 0.12113
-    },
-    {
-      "name": "Social protection",
-      "amount": 331000000,
-      "share": 0.1036
-    },
-    {
-      "name": "Environmental protection",
-      "amount": 118000000,
-      "share": 0.03693
-    },
-    {
-      "name": "Public order and safety",
-      "amount": 80000000,
-      "share": 0.02504
-    },
-    {
-      "name": "Housing and community amenities",
-      "amount": 80000000,
-      "share": 0.02504
-    },
-    {
-      "name": "Recreation, culture and religion",
-      "amount": 16000000,
-      "share": 0.00501
-    },
-    {
-      "name": "Defence",
-      "amount": 0,
-      "share": 0.0
-    }
+  "latestYear": "2024",
+  "availableYears": [
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
   ],
+  "years": {
+    "2008": {
+      "totalExpenditure": 1440000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 435000000,
+          "share": 0.30208
+        },
+        {
+          "name": "Education",
+          "amount": 295000000,
+          "share": 0.20486
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 258000000,
+          "share": 0.17917
+        },
+        {
+          "name": "General public services",
+          "amount": 236000000,
+          "share": 0.16389
+        },
+        {
+          "name": "Social protection",
+          "amount": 119000000,
+          "share": 0.08264
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 37000000,
+          "share": 0.02569
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 37000000,
+          "share": 0.02569
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 19000000,
+          "share": 0.01319
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 4000000,
+          "share": 0.00278
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2008",
+        "total": 1430000000,
+        "taxes": 710000000,
+        "grants": 553000000,
+        "other": 167000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2009": {
+      "totalExpenditure": 1609000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 479000000,
+          "share": 0.2977
+        },
+        {
+          "name": "Education",
+          "amount": 330000000,
+          "share": 0.2051
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 305000000,
+          "share": 0.18956
+        },
+        {
+          "name": "General public services",
+          "amount": 268000000,
+          "share": 0.16656
+        },
+        {
+          "name": "Social protection",
+          "amount": 135000000,
+          "share": 0.0839
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 37000000,
+          "share": 0.023
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 35000000,
+          "share": 0.02175
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 17000000,
+          "share": 0.01057
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 3000000,
+          "share": 0.00186
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2009",
+        "total": 1537000000,
+        "taxes": 745000000,
+        "grants": 623000000,
+        "other": 169000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2010": {
+      "totalExpenditure": 1619000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 542000000,
+          "share": 0.33477
+        },
+        {
+          "name": "Education",
+          "amount": 320000000,
+          "share": 0.19765
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 255000000,
+          "share": 0.1575
+        },
+        {
+          "name": "General public services",
+          "amount": 235000000,
+          "share": 0.14515
+        },
+        {
+          "name": "Social protection",
+          "amount": 144000000,
+          "share": 0.08894
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 40000000,
+          "share": 0.02471
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 35000000,
+          "share": 0.02162
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 31000000,
+          "share": 0.01915
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 17000000,
+          "share": 0.0105
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2010",
+        "total": 1558000000,
+        "taxes": 777000000,
+        "grants": 632000000,
+        "other": 149000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2011": {
+      "totalExpenditure": 1673000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 582000000,
+          "share": 0.34788
+        },
+        {
+          "name": "Education",
+          "amount": 324000000,
+          "share": 0.19366
+        },
+        {
+          "name": "General public services",
+          "amount": 253000000,
+          "share": 0.15123
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 243000000,
+          "share": 0.14525
+        },
+        {
+          "name": "Social protection",
+          "amount": 150000000,
+          "share": 0.08966
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 45000000,
+          "share": 0.0269
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 36000000,
+          "share": 0.02152
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 27000000,
+          "share": 0.01614
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 13000000,
+          "share": 0.00777
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2011",
+        "total": 1584000000,
+        "taxes": 826000000,
+        "grants": 615000000,
+        "other": 143000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2012": {
+      "totalExpenditure": 1663000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 579000000,
+          "share": 0.34817
+        },
+        {
+          "name": "Education",
+          "amount": 337000000,
+          "share": 0.20265
+        },
+        {
+          "name": "General public services",
+          "amount": 261000000,
+          "share": 0.15695
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 228000000,
+          "share": 0.1371
+        },
+        {
+          "name": "Social protection",
+          "amount": 145000000,
+          "share": 0.08719
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 46000000,
+          "share": 0.02766
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 27000000,
+          "share": 0.01624
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 26000000,
+          "share": 0.01563
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 14000000,
+          "share": 0.00842
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2012",
+        "total": 1616000000,
+        "taxes": 860000000,
+        "grants": 625000000,
+        "other": 131000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2013": {
+      "totalExpenditure": 1703000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 593000000,
+          "share": 0.34821
+        },
+        {
+          "name": "Education",
+          "amount": 348000000,
+          "share": 0.20435
+        },
+        {
+          "name": "General public services",
+          "amount": 262000000,
+          "share": 0.15385
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 216000000,
+          "share": 0.12683
+        },
+        {
+          "name": "Social protection",
+          "amount": 160000000,
+          "share": 0.09395
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 46000000,
+          "share": 0.02701
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 28000000,
+          "share": 0.01644
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 26000000,
+          "share": 0.01527
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 24000000,
+          "share": 0.01409
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2013",
+        "total": 1656000000,
+        "taxes": 901000000,
+        "grants": 613000000,
+        "other": 142000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2014": {
+      "totalExpenditure": 1685000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 595000000,
+          "share": 0.35312
+        },
+        {
+          "name": "Education",
+          "amount": 327000000,
+          "share": 0.19407
+        },
+        {
+          "name": "General public services",
+          "amount": 269000000,
+          "share": 0.15964
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 223000000,
+          "share": 0.13234
+        },
+        {
+          "name": "Social protection",
+          "amount": 158000000,
+          "share": 0.09377
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 47000000,
+          "share": 0.02789
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 29000000,
+          "share": 0.01721
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 19000000,
+          "share": 0.01128
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 18000000,
+          "share": 0.01068
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2014",
+        "total": 1725000000,
+        "taxes": 928000000,
+        "grants": 672000000,
+        "other": 125000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2015": {
+      "totalExpenditure": 1708000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 602000000,
+          "share": 0.35246
+        },
+        {
+          "name": "Education",
+          "amount": 335000000,
+          "share": 0.19614
+        },
+        {
+          "name": "General public services",
+          "amount": 270000000,
+          "share": 0.15808
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 229000000,
+          "share": 0.13407
+        },
+        {
+          "name": "Social protection",
+          "amount": 160000000,
+          "share": 0.09368
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 50000000,
+          "share": 0.02927
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 29000000,
+          "share": 0.01698
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 19000000,
+          "share": 0.01112
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 14000000,
+          "share": 0.0082
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2015",
+        "total": 1745000000,
+        "taxes": 973000000,
+        "grants": 653000000,
+        "other": 119000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2016": {
+      "totalExpenditure": 1781000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 637000000,
+          "share": 0.35766
+        },
+        {
+          "name": "Education",
+          "amount": 349000000,
+          "share": 0.19596
+        },
+        {
+          "name": "General public services",
+          "amount": 266000000,
+          "share": 0.14935
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 243000000,
+          "share": 0.13644
+        },
+        {
+          "name": "Social protection",
+          "amount": 161000000,
+          "share": 0.0904
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 52000000,
+          "share": 0.0292
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 30000000,
+          "share": 0.01684
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 27000000,
+          "share": 0.01516
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 16000000,
+          "share": 0.00898
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2016",
+        "total": 1854000000,
+        "taxes": 984000000,
+        "grants": 703000000,
+        "other": 167000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2017": {
+      "totalExpenditure": 1900000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 693000000,
+          "share": 0.36474
+        },
+        {
+          "name": "Education",
+          "amount": 363000000,
+          "share": 0.19105
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 272000000,
+          "share": 0.14316
+        },
+        {
+          "name": "General public services",
+          "amount": 265000000,
+          "share": 0.13947
+        },
+        {
+          "name": "Social protection",
+          "amount": 164000000,
+          "share": 0.08632
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 53000000,
+          "share": 0.02789
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 44000000,
+          "share": 0.02316
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 31000000,
+          "share": 0.01632
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 15000000,
+          "share": 0.00789
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2017",
+        "total": 1982000000,
+        "taxes": 1102000000,
+        "grants": 733000000,
+        "other": 147000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2018": {
+      "totalExpenditure": 2005000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 705000000,
+          "share": 0.35162
+        },
+        {
+          "name": "Education",
+          "amount": 385000000,
+          "share": 0.19202
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 297000000,
+          "share": 0.14813
+        },
+        {
+          "name": "General public services",
+          "amount": 278000000,
+          "share": 0.13865
+        },
+        {
+          "name": "Social protection",
+          "amount": 183000000,
+          "share": 0.09127
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 54000000,
+          "share": 0.02693
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 50000000,
+          "share": 0.02494
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 37000000,
+          "share": 0.01845
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 16000000,
+          "share": 0.00798
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2018",
+        "total": 2066000000,
+        "taxes": 1131000000,
+        "grants": 779000000,
+        "other": 156000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2019": {
+      "totalExpenditure": 2148000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 729000000,
+          "share": 0.33939
+        },
+        {
+          "name": "Education",
+          "amount": 402000000,
+          "share": 0.18715
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 302000000,
+          "share": 0.1406
+        },
+        {
+          "name": "General public services",
+          "amount": 294000000,
+          "share": 0.13687
+        },
+        {
+          "name": "Social protection",
+          "amount": 219000000,
+          "share": 0.10196
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 66000000,
+          "share": 0.03073
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 63000000,
+          "share": 0.02933
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 56000000,
+          "share": 0.02607
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 17000000,
+          "share": 0.00791
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2019",
+        "total": 2191000000,
+        "taxes": 1159000000,
+        "grants": 860000000,
+        "other": 172000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2020": {
+      "totalExpenditure": 2329000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 781000000,
+          "share": 0.33534
+        },
+        {
+          "name": "Education",
+          "amount": 416000000,
+          "share": 0.17862
+        },
+        {
+          "name": "General public services",
+          "amount": 390000000,
+          "share": 0.16745
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 310000000,
+          "share": 0.1331
+        },
+        {
+          "name": "Social protection",
+          "amount": 226000000,
+          "share": 0.09704
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 64000000,
+          "share": 0.02748
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 63000000,
+          "share": 0.02705
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 62000000,
+          "share": 0.02662
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 17000000,
+          "share": 0.0073
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2020",
+        "total": 2380000000,
+        "taxes": 1233000000,
+        "grants": 969000000,
+        "other": 178000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2021": {
+      "totalExpenditure": 2506000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 821000000,
+          "share": 0.32761
+        },
+        {
+          "name": "General public services",
+          "amount": 444000000,
+          "share": 0.17717
+        },
+        {
+          "name": "Education",
+          "amount": 442000000,
+          "share": 0.17638
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 308000000,
+          "share": 0.12291
+        },
+        {
+          "name": "Social protection",
+          "amount": 252000000,
+          "share": 0.10056
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 79000000,
+          "share": 0.03152
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 67000000,
+          "share": 0.02674
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 65000000,
+          "share": 0.02594
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 28000000,
+          "share": 0.01117
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2021",
+        "total": 2646000000,
+        "taxes": 1439000000,
+        "grants": 1032000000,
+        "other": 175000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2022": {
+      "totalExpenditure": 2786000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 891000000,
+          "share": 0.31981
+        },
+        {
+          "name": "Education",
+          "amount": 472000000,
+          "share": 0.16942
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 420000000,
+          "share": 0.15075
+        },
+        {
+          "name": "Social protection",
+          "amount": 380000000,
+          "share": 0.1364
+        },
+        {
+          "name": "General public services",
+          "amount": 320000000,
+          "share": 0.11486
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 113000000,
+          "share": 0.04056
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 86000000,
+          "share": 0.03087
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 80000000,
+          "share": 0.02872
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 24000000,
+          "share": 0.00861
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2022",
+        "total": 2874000000,
+        "taxes": 1583000000,
+        "grants": 1083000000,
+        "other": 208000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2023": {
+      "totalExpenditure": 2946000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 1004000000,
+          "share": 0.3408
+        },
+        {
+          "name": "Education",
+          "amount": 514000000,
+          "share": 0.17447
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 454000000,
+          "share": 0.15411
+        },
+        {
+          "name": "General public services",
+          "amount": 386000000,
+          "share": 0.13103
+        },
+        {
+          "name": "Social protection",
+          "amount": 301000000,
+          "share": 0.10217
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 114000000,
+          "share": 0.0387
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 79000000,
+          "share": 0.02682
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 78000000,
+          "share": 0.02648
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 16000000,
+          "share": 0.00543
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2023",
+        "total": 3001000000,
+        "taxes": 1622000000,
+        "grants": 1164000000,
+        "other": 215000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    },
+    "2024": {
+      "totalExpenditure": 3195000000,
+      "functions": [
+        {
+          "name": "Health",
+          "amount": 1134000000,
+          "share": 0.35493
+        },
+        {
+          "name": "Education",
+          "amount": 555000000,
+          "share": 0.17371
+        },
+        {
+          "name": "Economic affairs",
+          "amount": 494000000,
+          "share": 0.15462
+        },
+        {
+          "name": "General public services",
+          "amount": 387000000,
+          "share": 0.12113
+        },
+        {
+          "name": "Social protection",
+          "amount": 331000000,
+          "share": 0.1036
+        },
+        {
+          "name": "Environmental protection",
+          "amount": 118000000,
+          "share": 0.03693
+        },
+        {
+          "name": "Public order and safety",
+          "amount": 80000000,
+          "share": 0.02504
+        },
+        {
+          "name": "Housing and community amenities",
+          "amount": 80000000,
+          "share": 0.02504
+        },
+        {
+          "name": "Recreation, culture and religion",
+          "amount": 16000000,
+          "share": 0.00501
+        },
+        {
+          "name": "Defence",
+          "amount": 0,
+          "share": 0.0
+        }
+      ],
+      "revenue": {
+        "fiscalYear": "2024",
+        "total": 3084000000,
+        "taxes": 1630000000,
+        "grants": 1214000000,
+        "other": 240000000,
+        "source": {
+          "table": "10-10-0017-01",
+          "productId": "10100017",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010001701",
+          "retrievedAt": "2026-10-01"
+        }
+      }
+    }
+  },
   "source": {
     "table": "10-10-0024-01",
     "productId": "10100024",
     "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010002401",
-    "retrievedAt": "2026-09-29"
+    "retrievedAt": "2026-10-01"
   }
 }
